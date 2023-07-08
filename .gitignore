@@ -67,3 +67,13 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+
+procedure TForm1.Timer1Timer(Sender: TObject);
+begin
+ShowMessage('прошло 10 секунд');
+end;
+ 
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+Timer1.Enabled:=True;
+end;
